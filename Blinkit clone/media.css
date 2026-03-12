@@ -1,0 +1,123 @@
+
+@media (max-width:1020px) {
+
+   .blinkit-logo{
+    display: none;
+   }
+
+   .Login-btn{
+    margin-right: 40px;
+   }
+
+   .cart-btn{
+    
+    
+   }
+
+   .box-images{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.hero-first-img{
+    display: none;
+}
+
+.hero-card{
+    display: none;
+
+    
+}
+
+.header-container{
+     position: fixed;
+     top: 0;
+     left: 0;
+}
+
+.search-bar input{
+    display: none;
+    width: 500px;
+
+}
+
+
+
+
+
+
+.hero-container{
+    padding-left: 40px;
+    
+}
+
+footer{
+    display: none;
+}
+
+.media-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+
+
+}
+
+
+@media (max-width:768px) {
+    .hero-container{
+        margin-top: 100px;
+        padding: 20px;
+        width: 100%;
+    
+    
+    }
+
+    .box-images{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        
+    }
+
+    .hero-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-card::-webkit-scrollbar{
+        display: none;
+    }
+
+    .Login-btn{
+
+    }
+
+    .cart-btn{
+        
+    }
+
+    .search-bar{
+        display: none;
+    }
+
+    .account{
+        display: block;
+        position: relative;
+        right: 25%;
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
