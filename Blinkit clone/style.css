@@ -26,12 +26,9 @@ body{
     top: 0;
     background-color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 25px;
-    
-    
-
-    
+    padding: 15px;
    
 }
 
@@ -47,6 +44,7 @@ cart-container{
     height: 86px;
     display: flex;
     align-items: center;
+    padding-left: 40px;
     
 }
 
@@ -91,8 +89,19 @@ cart-container{
     
 }
 
+
 .search-bar{
-    width: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.search-bar i{
+    position: relative;
+    left: 5%;
 }
 
 .search-bar input{
@@ -101,6 +110,7 @@ cart-container{
     background-color: #00000016;
     border: none;
     padding: 12px;
+    height: 47px;
 }
 
 .nav-search{

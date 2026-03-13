@@ -10,7 +10,7 @@
    }
 
    .cart-btn{
-    
+    display: none;
     
    }
 
@@ -31,12 +31,11 @@
 
 .header-container{
      position: fixed;
-     top: 0;
-     left: 0;
+     
 }
 
 .search-bar input{
-    display: none;
+
     width: 500px;
 
 }
@@ -92,16 +91,10 @@ footer{
         display: none;
     }
 
-    .Login-btn{
 
-    }
-
-    .cart-btn{
-        
-    }
 
     .search-bar{
-        display: none;
+        display: ;
     }
 
     .account{
@@ -112,6 +105,14 @@ footer{
     }
 
 
+
+
+}
+
+@media (max-width:400px) {
+    .hero-container{
+        padding: 10px;
+    }
 
 
 }

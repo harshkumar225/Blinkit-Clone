@@ -14,7 +14,7 @@ let total=0;
 button.forEach(function(btn){
     btn.addEventListener('click',function(){
 
-  
+   
 
 
        let product= btn.parentElement;
@@ -48,7 +48,7 @@ button.forEach(function(btn){
        cartbtn.style.display="block";
 
        
-
+    
 
        
        
@@ -82,6 +82,20 @@ const login=document.querySelector(".account")
 login.addEventListener('click',()=>{
    window.location.href="login.html";
 })
+
+const linkdin=document.getElementById("linkdin")
+const github=document.getElementById("github")
+
+linkdin.addEventListener('click',()=>{
+   window.location.href="https://www.linkedin.com/in/harsh-kumar-152b18389?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPIrOuB54T6O1JD5nebDYXw%3D%3D"
+})
+
+github.addEventListener('click',()=>{
+   window.location.href="https://github.com/harshkumar225?tab=repositories"
+})
+
+
+
 
 
 
